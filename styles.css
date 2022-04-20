@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+:after {
+    box-sizing: border-box;
+}
+
+.header {
+    background: rgba(207, 226, 255, 0.5);
+    font-size: 20px;
+
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.table-header {
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    color: darkblue;
+}
+
+.task-name, .task-description, .task-deadline, .task-file, .add-task {
+    margin-left: 20px;
+    margin-right: 20px;
+}
