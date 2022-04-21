@@ -34,10 +34,8 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-let task1 = new Task(1, 'SPP1', 'Pass lw1', TaskStatus.IN_PROGRESS, new Date(Date.now() + 1 * 24 * 3600 * 1000));
-
 let obj = {
-    tasks: [task1]
+    tasks: []
 };
 
 function normalizeDate() {
